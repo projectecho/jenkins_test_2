@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('') {
       steps {
-        echo 'Hi, do we see this?'
+        sh '''echo where am i?
+pwd'''
       }
     }
   }
