@@ -1,10 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('Install') {
       steps {
-        sh '''echo where am i?
-pwd'''
+        input 'Install npm packages?'
       }
     }
   }
